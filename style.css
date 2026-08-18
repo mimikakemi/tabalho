@@ -1,0 +1,118 @@
+:root {
+    --rosa-claro: #fbe8ee;
+    --rosa-suave: #f3c6d8;
+    --rosa-medio: #df8caf;
+    --rosa-escuro: #b95f8a;
+    --texto: #4b2e39;
+    --branco: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #fff7fa;
+    color: var(--texto);
+}
+
+#titulo-principal {
+    text-align: center;
+    color: var(--rosa-escuro);
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+
+.texto-principal {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.link-youtube {
+    display: block;
+    width: fit-content;
+    margin: 8px auto 18px;
+    color: var(--rosa-escuro);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link-youtube:hover {
+    text-decoration: underline;
+}
+
+.imagem-logo {
+    display: block;
+    width: 160px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.lista-itens {
+    width: 220px;
+    margin: 20px auto;
+    padding: 12px 18px;
+    background: var(--rosa-claro);
+    border: 1px solid #f0c9d9;
+    border-radius: 8px;
+    list-style: none;
+}
+
+.lista-itens li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f2d3e0;
+}
+
+.lista-itens li:last-child {
+    border-bottom: none;
+}
+
+#form-contato {
+    max-width: 340px;
+    margin: 25px auto 0;
+    padding: 18px;
+    background: var(--branco);
+    border: 1px solid #f2d3e0;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: var(--texto);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #efc7d6;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: var(--rosa-medio);
+    color: var(--branco);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--rosa-escuro);
+}
